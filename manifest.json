@@ -1,0 +1,16 @@
+{
+  // Required
+  "name": "FartScroll",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "Fart As You Scroll",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["fartscroll.js"]
+    }
+  ]
+}
